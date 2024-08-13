@@ -1,0 +1,16 @@
+
+const intialarr = [1,2,3,4];
+function hello( str)
+{
+  console.log(str);
+  
+}
+intialarr.forEach(hello)
+
+
+//output
+
+// 1
+// 2
+// 3
+// 4
