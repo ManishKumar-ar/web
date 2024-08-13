@@ -1,0 +1,10 @@
+
+
+let names = "manish kumar hello class"
+
+let words = names.split(" ");                   /// in this, split() we pass the "" as delimiters that means where there is space- break the string from there and inclide in the array
+
+console.log(words);
+
+//output
+// [ 'manish', 'kumar', 'hello', 'class' ]
