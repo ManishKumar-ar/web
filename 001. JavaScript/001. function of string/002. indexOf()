@@ -11,3 +11,43 @@ manish("manish kumar" ,"kumar");
 //output
 // your name is manish kumar
 // the length of your name is 7
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+function manish(str,target)
+{
+  console.log("the given string is " +str);
+  console.log("the length of your string is ",str.indexOf(target));                    
+}
+
+
+manish("hello, coding is very very awful" ,"very");                                 // in this we have 2 very funcitonn, but it return the index of the starting element.
+
+
+
+//output
+// the given string is hello, coding is very very awful
+// the length of your string is  17
+
+
+
+
+
+
+
+
