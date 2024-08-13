@@ -1,0 +1,7 @@
+
+console.log(Math.random())                  // here this is the funcitpn that is available in the js to give gthe random function
+
+//output
+
+// 0.6211048839420115                      // when we run the first time
+// 0.6782749902828378             // this is whne we run the second time.
