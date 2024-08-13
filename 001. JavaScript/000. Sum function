@@ -1,0 +1,19 @@
+function sum( a, b, fn)                               /// here we implement the call back concept;
+{
+  let result = a+b;
+  fn(result);
+}
+function display1(data)
+{
+  console.log("Result is displayed using display1  :" + data);
+}
+
+function display2(data)
+{
+  console.log("Result is displayed using display2  :" + data);
+}
+
+const ans = sum(10,20,display1);
+
+//output
+//Result is displayed using display1  :30
