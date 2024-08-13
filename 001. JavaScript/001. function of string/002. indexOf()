@@ -1,0 +1,13 @@
+function manish(str,target)
+{
+  console.log("your name is " +str);
+  console.log("the length of your name is ",str.indexOf(target));                   /// this is used to find out the index of the target element in the given string,
+}
+
+
+manish("manish kumar" ,"kumar");
+
+
+//output
+// your name is manish kumar
+// the length of your name is 7
