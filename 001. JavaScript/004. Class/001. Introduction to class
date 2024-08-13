@@ -1,0 +1,105 @@
+////////////////////////////////////////////////////// simple intor////////////////////////////////////////////////
+
+
+class school
+{
+  constructor(names, age,sections,rollno)
+  {
+    this.names = names;
+    this.age = age;
+    this.sections = sections;
+    this.rollno = rollno;
+  }
+
+
+}
+
+let ninth = new school("manish",22,"A",12);
+console.log(ninth.names);
+
+
+//outout
+//manish
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////// high example  //////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+class school
+{
+  constructor(names, age,sections,rollno)
+  {
+    this.names = names;
+    this.age = age;
+    this.sections = sections;
+    this.rollno = rollno;
+  }
+
+  intro()
+  {
+    console.log("my name is " +this.names, "my age is " +this.age, "my section is " +this.sections,"my roll no is " + this.rollno);
+
+  }
+
+
+}
+
+let ninth = new school("manish",22,"A",12);
+ninth.intro();
+
+
+//output
+// my name is manish my age is 22 my section is A my roll no is 12
+
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
