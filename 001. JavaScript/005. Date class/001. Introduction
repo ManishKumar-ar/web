@@ -1,0 +1,67 @@
+/// for the date ----> we have a global class and they have many fucntion that we will used.
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+const currentDate  =   new Date();
+console.log(currentDate.getDate());                    /// here it print the correct date 
+console.log(currentDate.getMonth());                 // but it show the wrong month, because the current month was 8, but it show 7 because it was the 0 based indexed.
+                                           // for the correct date we have to print like  ///////console.log(currentDate.getMonth() + 1); 
+
+//OUTPUT
+// 13
+// 7
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+const currentDate  = new Date();
+
+console.log(currentDate.getMonth() + 1);
+
+
+//OUTPUT
+// 8
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
