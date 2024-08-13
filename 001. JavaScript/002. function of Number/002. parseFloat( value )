@@ -1,0 +1,11 @@
+
+
+
+console.log(parseFloat("30"))
+console.log(parseFloat("15.025"))
+console.log(parseFloat("25manish"))
+
+//output
+// 30
+// 15.025
+// 25
