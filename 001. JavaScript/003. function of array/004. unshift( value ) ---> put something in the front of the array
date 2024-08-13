@@ -1,0 +1,6 @@
+const array  = [1,2,3,4];
+array.unshift(10);
+console.log(array);
+
+//output
+// [ 10, 1, 2, 3, 4 ]
