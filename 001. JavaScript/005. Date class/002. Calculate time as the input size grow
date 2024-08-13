@@ -1,0 +1,25 @@
+function calculateSum() {
+  let a = 0;
+  for(let i = 0; i < 1000000000; i++) {
+    a = a + i;
+  }
+  return a;
+}
+
+const beforeDate = new Date();
+const beforeTimeInMs = beforeDate.getTime();
+
+// Call the function here
+calculateSum();
+
+const afterDate = new Date();
+const afterTimeInMs = afterDate.getTime();
+
+// Calculate the time difference
+console.log(afterTimeInMs - beforeTimeInMs);
+
+
+//output 
+//100000000 ===> 99
+//1000000000 ==> 1012
+//10000000000 ==>11326
