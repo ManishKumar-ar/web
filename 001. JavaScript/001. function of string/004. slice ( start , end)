@@ -1,0 +1,14 @@
+function manish(str,start, end)
+{
+  console.log("Original string :" +str);
+  console.log("After slice :",str.slice(start,end));                              /// slice () take 2 arguments  and it is used to print a specific part of the string.
+}  
+
+
+manish("hello everyone to class" , 2, 14);
+
+
+
+//output
+// Original string :hello everyone to class
+// After slice : llo everyone
