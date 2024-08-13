@@ -1,0 +1,14 @@
+
+
+////////////////////////////////////////////////////////////////////////////////////
+
+
+
+const user2 = '{"name" :"ankit"," age ":"22","gender":"male"}'
+
+const user = JSON.parse(user2);
+console.log(user["name"]);
+
+
+//output
+//ankit
