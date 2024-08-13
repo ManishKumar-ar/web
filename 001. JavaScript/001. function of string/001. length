@@ -1,0 +1,14 @@
+function manish(str)
+{
+  console.log("your name is " +str);
+  console.log("the length of your name is "+str.length);
+}
+
+
+manish("manish");                                              /// here we pass string in the function, that we write.
+
+
+
+//output
+// your name is manish
+// the length of your name is 6
