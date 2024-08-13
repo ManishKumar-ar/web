@@ -1,0 +1,14 @@
+function manish(str,target)
+{
+  console.log("the given string is " +str);
+  console.log("the length of your string is ",str.lastIndexOf(target));
+}
+
+
+manish("hello, coding is very very awful" ,"very");
+
+
+
+//output
+// the given string is hello, coding is very very awful
+// the length of your string is  22
