@@ -1,0 +1,10 @@
+
+
+
+
+const array  = [1,2,3,4];
+array.shift();                            // this is used to pop the element from the starting.
+console.log(array);
+
+//output
+// [ 2, 3, 4 ]
