@@ -5,7 +5,7 @@ function manish(str,start, end)
 }  
 
 
-manish("hello everyone to class" , 2, 14);
+manish("hello everyone to class" , 2, 14);           /// it means  [ 2, 14 ) ===> 
 
 
 
