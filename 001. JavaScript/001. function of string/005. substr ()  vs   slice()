@@ -1,0 +1,12 @@
+////// substr()   ===> is deprected now, now we will use slice() in place of it.
+
+let names = "manishkkkkk"
+let ans = names.substr(2,5);              // it means starting from the index 2 and go to the length of 5
+let ans2 = names.slice(2,5);             // it means starting from the index 2 and go to the index of 5.
+
+console.log(ans);
+console.log(ans2);
+
+//output
+// nishk
+// nis
