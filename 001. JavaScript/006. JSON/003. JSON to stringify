@@ -1,0 +1,15 @@
+
+
+const user1 ={
+  name : "manish",
+  age : "22",
+  gender :"male"
+}
+
+const finalString =  JSON.stringify(user1);
+
+console.log(finalString);
+
+
+//output
+// {"name":"manish","age":"22","gender":"male"}
