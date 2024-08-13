@@ -1,0 +1,37 @@
+static functionn in the class  ====> they are associated to the class, not with the object of the class.
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+class school
+{
+  constructor(names, age,sections,rollno)
+  {
+    this.names = names;
+    this.age = age;
+    this.sections = sections;
+    this.rollno = rollno;
+  }
+  
+  static mytype()                                                          /// here it was the static function 
+  {
+    console.log("school class, class function")
+  }
+  intro()
+  {
+    console.log("this is object funciton")
+  }
+}
+
+school.mytype()                                           /// here we call the static function with the help of the class name.
+let ninth = new school("manish",22,"A",12);
+ninth.intro();
+
+
+//output
+//school class, class function
+// this is object funciton
+
+
