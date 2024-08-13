@@ -1,0 +1,6 @@
+let names = "manish kumar"
+
+console.log(names.replace("kumar" , "prajapati"));
+
+//output
+// manish prajapati
