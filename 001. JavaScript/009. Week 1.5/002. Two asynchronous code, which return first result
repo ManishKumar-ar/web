@@ -1,0 +1,25 @@
+/// code which spent less time
+///
+///
+
+setTimeout(function () {
+  console.log("this is call first, but time is 2 sec");
+}, 2000);
+
+setTimeout(function () {
+  console.log("this is call second, but time is  1 sec");
+}, 1000);
+
+let a = 0;
+
+for (let i = 0; i < 100; i++) {
+  a = a + i;
+}
+
+console.log(a);
+
+
+//outpit
+// 4950
+// this is call second, but time is  1 sec
+// this is call first, but time is 2 sec
