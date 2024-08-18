@@ -1,1 +1,42 @@
 
+function getData() {
+                                                                                             // Return a new Promise object
+  return new Promise((resolve) => {
+    console.log("inside promises");                                                                    // This is logged immediately when the Promise is created
+
+                                                                                               // Resolve the Promise immediately with the value "hi there"
+    resolve("hi there");
+
+                                                                                               // This log happens after the resolve call, but it still executes immediately
+    console.log("outside promises");
+  });
+}
+
+                                                                                           // Call the getData function, which returns a resolved Promise
+let a = getData();
+
+                                                                                           // Log the Promise object. Since it's already resolved, it will show the resolved value
+console.log(a);                                                                                     // Logs Promise { "hi there" }
+
+                                                                                           // Attach a .then() to handle the resolved value of the Promise
+a.then((message) => {
+  console.log("manish never execute");                                                             // This will be executed immediately after the Promise is resolved
+})
+
+                                                                                           // These logs execute immediately after the previous code, showing that the code continues to run synchronously
+console.log("hello one");                                                                        // Logs "hello one"
+console.log("hello one");                                                                           // Logs "hello one" again
+
+                                                                                           // Log the Promise object again, which is still resolved
+console.log(a);                                                                                            // Logs Promise { "hi there" }
+
+
+//output
+inside promises
+outside promises
+Promise { 'hi there' }
+hello one
+hello one
+Promise { 'hi there' }
+manish never execute
+ 
