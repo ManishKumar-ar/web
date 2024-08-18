@@ -1,0 +1,38 @@
+function getData() {
+                                                         // Creating a new Promise object
+  return new Promise((resolve) => {
+    console.log("inside promises");                      // This is logged immediately when the Promise is created
+
+                                                     // Setting up a timer to resolve the promise after 2 seconds
+    setTimeout(() => {
+      resolve("Data received!");                   // The promise is resolved after 2 seconds with this message
+    }, 2000);
+
+    console.log("outside promises");                      // This is logged immediately after setting the timeout, before the promise is resolved
+  });
+}
+
+                                                // Calling the getData function which returns a Promise
+let a = getData();
+
+console.log(a);                                   // Logs the initial state of the promise, which is 'pending' at this moment
+
+                                                                // Setting up a .then() to handle the resolved value of the promise
+a.then((message) => {
+  console.log(message);                                    // Logs "Data received!" after the promise is resolved (after 2 seconds)
+});
+
+console.log("hello one");                                   // This is logged immediately, showing that code execution doesn't wait for the promise to resolve
+
+console.log(a);                                         // Logs the current state of the promise again, which is still 'pending' at this point
+
+
+
+//output
+inside promises
+outside promises
+Promise { <pending> }
+hello one
+Promise { <pending> }
+                                            // After 2 seconds
+Data received!
