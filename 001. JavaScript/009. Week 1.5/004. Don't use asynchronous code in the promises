@@ -1,0 +1,29 @@
+function getData() {
+  return new Promise(() => {
+    console.log("inside promises");
+    console.log("outside promises");
+  });
+}
+
+let a = getData();
+console.log(a);
+
+a.then((message) => {
+  console.log(message);
+});
+
+console.log("hello one");
+console.log("hello one");
+
+console.log(a);
+
+
+
+///////////////////////////////////////////////////////////////////////////
+
+inside promises
+outside promises
+Promise { <pending> }
+hello one
+hello one
+Promise { <pending> }
