@@ -8,6 +8,7 @@ computer [ A ] used as server
 
 
 computer [ B ] used as cilent
+
 now =>
 when we make a HTTP request, by usnig the given URL, then we get our data.
-
+![image](https://github.com/user-attachments/assets/50f7ed4b-74f1-41fe-ab11-8ed64c6a0ed4)
