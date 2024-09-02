@@ -9,10 +9,13 @@ here we write some code in the our body that server can see.
 Now our server  -
 Problem – 
  	the body of an HTTP request is received as a stream of data chunks.
+  
  	The concept of data chunks in Node.js relates to how data is received over the network. When a client sends an HTTP request to a server, especially for POST, PUT, or PATCH requests, the data (like JSON, form data, or files) is not necessarily sent all at once.
  	Instead, it's sent as a series of smaller pieces called chunks.
+  
  	Since data arrives in chunks, the server needs to assemble these chunks to reconstruct the full body. If your application tried to access the body before all chunks had been received and processed, you'd only get partial data, leading to incomplete or incorrect information being processed.
  	Handling streams and assembling chunks manually adds complexity to your code. You need to write logic to concatenate the chunks together and handle cases where chunks might not arrive as expected.
+  
  	If something goes wrong while receiving chunks (e.g., the connection is lost, or the data is malformed), the server needs to handle these errors gracefully. Proper error handling adds additional code complexity.
 
 
