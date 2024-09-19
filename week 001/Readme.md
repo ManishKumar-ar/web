@@ -1,6 +1,8 @@
 
 
-Week - 1 Basic Javascript, Async and Promises
+Week - 1 Basic Javascript, Async and Promises.
+
+
 Week 1.1 - Orientation
 
 Week 1.2 JavaScript Foundation
@@ -11,17 +13,13 @@ Week 1.4 Loops, Callback Functions
 
 Week 1.5 Async, JS architecture, promises & async await
 
-Slide
-
-CODE
 
 Assignments
-
 Easy
 Medium
 Hard
-Extra Assignments
 
+Extra Assignments
 Level-1
 Level-2
 Counter
