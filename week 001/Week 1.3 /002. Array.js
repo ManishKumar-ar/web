@@ -33,7 +33,9 @@ function popExample(arr) {
 popExample([1, 2, 3]);
 
 
-
+//output
+Original Array: [1, 2, 3]
+After pop: [1, 2]
 
 
 
