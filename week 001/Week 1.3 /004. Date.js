@@ -42,3 +42,43 @@ After setFullYear: Mon Sep 20 2022 16:14:23 GMT+0530 (India Standard Time)
 After setMonth: Mon Jun 20 2022 16:14:23 GMT+0530 (India Standard Time)
 Time in milliseconds since 1970: 1655724863000
 New Date: Sun Sep 15 2023 00:00:00 GMT+0530 (India Standard Time)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////
+1. const currentDate = new Date();
+
+Purpose: This creates a Date object representing the current date and time.
+Output: It reflects the exact moment when the code is executed (e.g., "Mon Sep 20 2024 16:14:23 GMT+0530 (India Standard Time)").
+Use Case: Useful for getting the current date and time for logging, timestamps, or any real-time applications.
+  
+2. const newDate = new Date(2023, 8, 15);
+
+Purpose: This creates a Date object set to a specific date: September 15, 2023.
+Note: The month is zero-indexed, meaning 8 corresponds to September (0 = January, 1 = February, ..., 8 = September).
+Output: This will be a fixed date, e.g., "Fri Sep 15 2023 00:00:00 GMT+0530 (India Standard Time)".
+Use Case: Useful for working with specific historical or future dates, such as deadlines, events, or birthdays.
